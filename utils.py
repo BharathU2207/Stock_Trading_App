@@ -32,7 +32,7 @@ def train_model(X_train, y_train, units_1, units_2, units_3, dropout_rate, epoch
         progress_bar.progress((epoch + 1) / epochs)
  
     # Save the new model
-    new_model_path = r'C:\Users\bhara\Desktop\Projects\StockNet\Stock Predictions user trained Model.keras'
+    new_model_path = 'Stock Predictions user trained Model.keras'
     new_model.save(new_model_path)
     st.session_state.model = new_model
     return new_model, new_model_path

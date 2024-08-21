@@ -11,7 +11,7 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error
 from utils import * 
 
 # Load model 
-default_model_path = r'C:\Users\bhara\Desktop\Projects\StockNet\Stock Predictions Model.keras'
+default_model_path = 'Stock Predictions Model.keras'
 model = load_model_from_path(default_model_path)
 current_model_path = default_model_path
 
